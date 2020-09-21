@@ -17,15 +17,16 @@ echo $total. "\n";
 
 //課題３
 $fruits = array("りんご", "ぶどう", "みかん", "レモン", "ばなな");
-foreach($fruits as $fruits)
-  echo  $fruits;
+foreach($fruits as $fruit){
+  echo  $fruit;
   echo "\n";
+}
   
 //応用課題
 $start = 1;
 $end = 100;
 
-for($i = $start; $i < $end; $i++){
+for($i = 1; $i <= 100; $i++){
 
   // 5で割り切れたら{}内を実行する
   if($i % 5 == 0){

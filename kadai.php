@@ -9,7 +9,7 @@ echo $array_manth[7] . "\n";
 $hello = "Hello,";
 $name = "Ritsuki";
 $world = "'s World!";
-echo $hello , $name , $world . "\n";
+echo $hello . $name . $world . "\n";
 
 $tech_boost = "tech";
 $tech_boost .= "boost";
